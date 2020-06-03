@@ -1,0 +1,10 @@
+# FROM node:11.15.0-alpine as build-step
+# WORKDIR /app
+# COPY package.json ./
+# RUN npm install 
+# COPY . .
+# EXPOSE 2400
+# CMD npm run start
+
+# FROM ngnix:1.17.1-alpine
+# COPY /dist/DockerAngular /usr/share/ngnix/html
